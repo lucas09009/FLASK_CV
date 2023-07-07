@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+/* rgb(250, 91, 91) */
+header{
+    display: flex;
+    background-color:black;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif
+
+}
+
+nav{
+    width: 40%;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;  
+    justify-content: space-between;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+/* nav ul li:hover{
+    color: white;    
+    background-color: brown;
+    border-radius: 50px 50px 50px 50px;
+    padding: 10px 0px 0px 10px;
+} */
+
+body{
+    background-color: rgb(240, 235, 235);
+    /* background-image: url(); */
+}
+
+aside{
+    margin-left: 3px;
+}
+
+aside div{
+
+    height:15cm;
+    width: 8cm;
+    border: 2px solid black;
+    overflow: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: white;
+
+}      
+
+aside .hbar{
+    background-color: rgb(247, 140, 140);
+    height: 25px
+}
+
+.main-aside{
+display: flex;
+width:100%;
+margin-top: 4px;
+}
+
+.main{
+    border: 2px solid black;
+    width: 80%;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.main ul{
+    list-style-type: none;
+}
+
+header .logo .image img{
+    border-radius: 50px 50px 50px 50px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.Nom{
+    cursor: pointer;
+}
+
+.info{
+    text-align: center;
+    color:white;
+    font-size:large;
+}
+
+
+.container{
+    background-color: black;
+    height: 3cm;
+    color:white;
+    text-align: center;
+    display: flex;
+    width:100%;
+}
+
+.container .div1{
+    width: 30%;
+    border-right: 2px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .div2{
+    width: 40%;
+    border-right: 2px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container .div3{
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* .main-aside .aside .hbar .info h3{
+    text-align: center;
+    margin-left:14px
+} */

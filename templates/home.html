@@ -1,0 +1,116 @@
+{% extends "layout.html" %}
+
+{% block blocktitle %}
+HOME
+{% endblock %}
+
+
+{% block body %} 
+
+    <header>
+        <div class="logo">
+            <div class="image">
+                
+                    <img src="{{ url_for('static', filename='public/images/dev.jpg')}}"
+                        alt = "image d'\un dev assis" de width="45px" height="44px">
+                
+            </div>
+            <div class="Nom">LUCAS</div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/Mes_Services" Services>Mes services</a></li>
+                <li><a href="/about">A_propos</a></li>
+                <li><a href="/">Acceuil</a></li>
+                <li><a href="/Mes_compétences">Mes_compétences</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="defilante">
+        <p></p>
+    </div>
+    <div class="main-aside">
+        <aside class="aside">
+            <div>
+                <div class="hbar">
+                    <p class="info">INFORMATIONS DETAILLEES</p>
+                </div>
+                <h3>Bienvenue sur mon site web!</h3><br>
+                <p>Je suis un développeur passionné, prêt à relever tous les défis qui se présentent à moi. Avec une
+                    solide expérience dans le développement web, je suis déterminé à créer des solutions innovantes et
+                    efficaces pour répondre aux besoins de mes clients.</p><br>
+                <p>Ma passion pour la programmation et mon engagement envers l'excellence se reflètent dans la qualité
+                    de mon travail. Je suis constamment à la recherche de nouvelles technologies et de tendances
+                    émergentes pour rester à la pointe de mon domaine.</p><br>
+                <p>Mon expertise s'étend à plusieurs langages de programmation, tels que HTML, CSS, JavaScript, ainsi
+                    que des frameworks populaires tels que React et Angular. Je suis à l'aise aussi bien dans le
+                    développement frontend que backend, et je suis capable de créer des interfaces utilisateur
+                    interactives et intuitives, ainsi que des fonctionnalités robustes côté serveur.</p><br>
+                <p>En plus de mes compétences techniques, je suis également un excellent communicateur et un bon
+                    collaborateur. J'ai une approche axée sur l'équipe et je suis capable de travailler en étroite
+                    collaboration avec les clients et les membres de l'équipe pour comprendre leurs besoins et offrir
+                    des solutions sur mesure.</p><br>
+                <p>Je suis motivé par la recherche de résultats concrets et l'obtention de la satisfaction de mes
+                    clients. Je m'engage à respecter les délais et à livrer un travail de qualité supérieure. Mon
+                    attention aux détails, ma rigueur et ma capacité à résoudre les problèmes me permettent de créer des
+                    produits fiables et performants.</p><br>
+                <p>Je crois fermement en l'apprentissage continu et je suis toujours ouvert à de nouvelles opportunités
+                    pour améliorer mes compétences et élargir mes connaissances. Mon objectif est de créer des
+                    expériences web uniques et d'apporter de la valeur ajoutée à chaque projet sur lequel je travaille.
+                </p><br>
+                <p>N'hésitez pas à parcourir mon portfolio pour voir certains de mes projets antérieurs. Si vous
+                    cherchez un développeur dédié, créatif et orienté vers les résultats, je suis prêt à relever le
+                    défi. Contactez-moi dès maintenant et discutons de la façon dont je peux vous aider à réaliser vos
+                    idées et atteindre vos objectifs en matière de développement web.</p><br>
+            </div>
+        </aside>
+        <main class="main">
+            <h2><u>Nom & Prenoms</u></h2>
+            <p>Je me nomme <strong>Lucas KPEGAN</strong></p>
+            <img src="" alt="">
+
+            <h2><u>Hobbies</u></h2>
+            <ul>
+                <li>Football</li>
+                <li>Musique</li>
+                <li>Activité Physique</li>
+            </ul><br>
+
+            <h2><u>Compétences</u></h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>PYTHON(FLASK)</li>
+            </ul><br>
+
+            <h2><u>Forces</u></h2>
+            <p>Je suis plutot à l'aise avec tous les langages, mais je préfère <strong>PYTHON ET JAVASCRIPT</strong></p><br>
+
+            <h2><u>Faiblesses</u></h2>
+            <p>Comme tout autre developpeur, l'existence d'une faiblesse est normal, et ceci pas parce que le dévéloppeur est moins perfomant ou quoi que ce soit, mais au contraire cela est du à la <strong>spécialisation</strong></p><br>
+        </main>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="div1">
+                <h4>Mes reseaux</h4><br>
+                    <img src="https://e7.pngegg.com/pngimages/349/300/png-clipart-logo-computer-icons-instagram-logo-miscellaneous-text-thumbnail.png" width="30px" height="30px" alt="Image du suppos DG">
+                    <img src="https://e7.pngegg.com/pngimages/447/479/png-clipart-whatsapp-computer-icons-whatsapp-text-whatsapp-icon-thumbnail.png" width="30px" height="30px"  alt="">
+                    <img src="https://e7.pngegg.com/pngimages/646/324/png-clipart-github-computer-icons-github-logo-monochrome-thumbnail.png" width="30px" height="30px"  alt="">
+                </div>
+            <div class="div2">
+                <h4>Mes contacts</h4><br>
+                <img src="https://e7.pngegg.com/pngimages/827/13/png-clipart-telephone-ringing-illustration-computer-icons-telephone-call-mobile-phones-call-miscellaneous-text-thumbnail.png"  alt="" width="25px" height="25px">
+                <p>+228-4433-XXXX</p>
+                <p>+228-XXXX-1516</p>
+            </div>
+            <div class="div3">
+                <h4>Date d'édition</h4>
+                <p>Mai 2023</p><br> 
+                <p>Copyrights 
+                    <img src="https://e7.pngegg.com/pngimages/994/1001/png-clipart-copyright-symbol-computer-icons-copyright-text-words-phrases-thumbnail.png" width="15px" height="15px" alt="">
+                </p>
+            </div>
+        </div>
+    </footer>
+{% endblock %}
